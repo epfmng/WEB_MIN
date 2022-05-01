@@ -1,0 +1,106 @@
+/*
+Fichier CSS
+*/
+
+body /*Propriétés pour le body (Toute la page affichée)*/ 
+{ 
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 2%;
+	margin-bottom: 2%;	
+	padding: 1%;
+}
+
+/*==================== Identité ====================*/
+#identity 
+{
+	margin-right        : 50%;
+	margin-top          : 2%;
+	margin-bottom       : 2%;	
+	padding             : 1%;
+}
+
+#my_picture /*Propriétés de l'image d'identité*/
+{
+    width               : 30%;              /* La largeur de l'élément en pourcentage (par rapport au body)*/
+    height              : 30%;             /*La hauteur de l'élément réglée automatiquement*/
+    float               : right;	
+    margin-top          : 2%;
+	margin-bottom       : 2%;	
+}
+
+/*==================== Compétences ====================*/
+#skills
+{
+	margin-right        : 10%;
+	margin-top          : 2%;
+	margin-bottom       : 2%;	
+	padding             : 1%;
+}
+
+/*==================== Expériences professionnelles ====================*/
+#pro_experiences
+{
+	margin-right        : 10%;
+	margin-top          : 2%;
+	margin-bottom       : 2%;	
+	padding             : 1%;
+}
+
+/*==================== Formation ====================*/
+#education
+{
+	margin-right        : 10%;
+	margin-top          : 2%;
+	margin-bottom       : 2%;	
+	padding             : 1%;
+}
+
+/*==================== Tous les styles ====================*/
+a /*Propriétés du lien*/
+{
+    color               : grey; 
+}
+
+p.text /*Propriétés des lignes et colonnes des tableaux (ici on en a un seul, celui du menu)*/
+{
+    padding             : 0px;              /*écart de remplissage sur les cotés en pixels*/
+    color               : black; 
+    font-family         :Arial, Helvetica, sans-serif;
+    font-size           :small;
+}
+
+p.title1 /*Propriétés des lignes et colonnes des tableaux (ici on en a un seul, celui du menu)*/
+{
+    padding             : 0px;              /*écart de remplissage sur les cotés en pixels*/
+    height              : 38px;             /*La hauteur de l'élement en pixels (la même que celle des images)*/
+    color               : brown; 
+    font-size           : large;
+    font-weight         : bold;
+}
+
+p.title2 /*Propriétés des lignes et colonnes des tableaux (ici on en a un seul, celui du menu)*/
+{
+    padding             : 0px;              /*écart de remplissage sur les cotés en pixels*/
+    height              : 38px;             /*La hauteur de l'élement en pixels (la même que celle des images)*/
+    color               : brown; 
+    font-size           : medium;
+    font-weight         :bold;
+}
+
+p.identity_title1 /*Propriétés des lignes et colonnes des tableaux (ici on en a un seul, celui du menu)*/
+{
+    padding             : 0px;              /*écart de remplissage sur les cotés en pixels*/
+    height              : 50px;             /*La hauteur de l'élement en pixels (la même que celle des images)*/
+    color               : brown; 
+    font-size           : large;
+    font-weight         :bold;
+}
+
+p.identity_title2 /*Propriétés des lignes et colonnes des tableaux (ici on en a un seul, celui du menu)*/
+{
+    padding             : 0px;              /*écart de remplissage sur les cotés en pixels*/
+    height              : 38px;             /*La hauteur de l'élement en pixels (la même que celle des images)*/
+    color               : black; 
+    font-size           :large;
+}

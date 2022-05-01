@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang ="en-US">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, inital-scale=1">
+        <link rel="stylesheet" type="text/css" title="design" href="./styles/style.css"/>
+        <script language="javascript">
+              function toggleElement() {
+                    // get the element
+                    var myElement = document.getElementById('main_page');
+
+                    // get the current value of the element's display property
+                    var displaySetting = myElement.style.display;
+
+                    // also get the element button, so we can change what it says
+                    var elementButton = document.getElementById('main_page');
+
+                    // now toggle the element and the button text, depending on current state
+                    if (displaySetting == 'block') {
+                    // element is visible. hide it
+                    myElement.style.display = 'none';
+                    // change button text
+                    elementButton.innerHTML = 'Show element';
+                    }
+                    else {
+                    // element is hidden. show it
+                    myElement.style.display = 'block';
+                    // change button text
+                    elementButton.innerHTML = 'Page hidden';
+
+                    }
+                }
+            </script>
+        
+    </head>
+
+    <body id="main_page">
+        <div id="button">
+            <button onclick="toggleElement()" id="elementButton">
+                Hide the page
+            </button>
+        </div>
+        <div id="identity">
+            <img id="my_picture" src="../assets/my_picture.JPG" alt="my_picture">
+            <p class="identity_title1">
+                Marion MONANGE
+            </p>
+            <p class="identity_title2">
+                Etudiante en quatrième année d'école d'ingénieur (EPF)
+            </p>
+            <p class="text">
+                +33 0 00 00 00 00 - temp@temp.com
+            </p>
+            <a id="link">https://www.linkedin.com/in/marion-monange</a>
+        </div>
+
+        <div id="skills">
+            <p class="title1">
+                Compétences
+            </p>
+
+            <p class="text">
+                - Persévérance
+                <br>
+                - Curiosité
+                <br>
+                - Adaptabilité
+                <br>
+                - Travail d'équipe
+                <br>
+                - Anglais : Professionnelle
+                <br>
+                - Espagnol : Notions
+            </p>
+        </div>
+
+        <div id="pro_experiences">
+            <p class="title1">
+                Expériences professionnelles
+            </p>
+
+            <div id="first_experience">
+                <p class="title2">
+                    Juillet 2021 - Janvier 2022 Développeur Python R&D - Incitius Software (Montpellier)
+                </p>
+                <p class="text">
+                    - Création d’un logiciel Python de traitement des métadonnées pendant 6 mois en 
+                    utilisant 30 librairies et différents types de fichiers (Excel, PDF, CSV…) : gain d’une
+                    heure par jour pour la prospection d’entreprises et l’administration de la société
+                    <br>
+                    - Représentation de l’entreprise à l’extérieur lors de forums professionnels de plus de
+                    1 000 personnes
+                    <br>
+                    - Gestion de projets en groupe : organisation de 40 réunions, formation des autres
+                    membres, planification des tâches et des avancées
+                </p>
+            </div>
+            <div id="second_experience">
+                <p class="title2">
+                    Octobre 2020 - Avril 2021 Gestionnaire stocks - Ma p’tite échoppe (Antony)
+                </p>
+                <p class="text">
+                    - Optimisation du processus de vérification du stock pour une dizaine de produits
+                    <br>
+                    - Réorganisation du relais entre les équipes du matin et celles de l’après-midi : gain
+                    d’efficacité de 60 minutes
+                </p>
+            </div>
+
+            <div id="third_experience">
+                <p class="title2">
+                    Septembre 2020 - Actuellement Responsable partenariat - Egaliphi
+                </p>
+                <p class="text">
+                    - Mise en place de partenariats avec des associations d’écoles d’ingénieurs et de
+                    commerce
+                    <br>
+                    - Veille concurrentielle et organisation d’évènements et d’exposition pour les élèves
+                </p>
+            </div>
+        </div>
+
+        <div id="education">
+            <p class="title1">
+                Formation
+            </p>
+            <div id="first_edu">
+                <p class="title2">
+                    2020 - 2023 Ecole d’ingénieur Parcours Informatique et Numérique - EPF (Cachan)
+                </p>
+                <p class="text">
+                    - Réalisation d’un site Web à l’aide du langage Java et du framework Spring
+                    <br>
+                    - Réalisation de sites webs avec HTML, CSS, JavaScript et PHP
+                    <br>
+                    - Réalisation d’une application mobile Android avec Kotlin
+                    <br>
+                    - Entrainement de réseaux de neurones avec Python et des librairies sklearn, pandas,
+                    seaborn, tensorflow et numpy
+                    <br>
+                    - Formation aux enjeux de sécurité des systèmes d’information et du métier de RSSI
+                    <br>
+                    - Formation au contrôle de version avec Git, aux systèmes UNIX et Linux et à la
+                    virtualisation avec VMware
+                </p>
+            </div>
+            <div id="second_edu">
+                <p class="title2">
+                    2017 - 2020 Classes préparatoire MPSI puis PCSI et PSI* à Janson de Sailly (Paris)
+                    au CIV (Valbonne)
+                </p>
+                <p class="text">
+                    - Construction d’objets (piles et files) grâce à Python. Tris et boucles pour répondre à
+                    des problèmes de mathématiques et de physique
+                </p>
+            </div>
+        </div>  
+    </body>
+</html>
