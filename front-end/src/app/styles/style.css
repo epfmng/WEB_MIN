@@ -62,7 +62,7 @@ a /*Propriétés du lien*/
     color               : grey; 
 }
 
-p.text /*Propriétés des lignes et colonnes des tableaux (ici on en a un seul, celui du menu)*/
+p.text
 {
     padding             : 0px;              /*écart de remplissage sur les cotés en pixels*/
     color               : black; 
@@ -70,7 +70,7 @@ p.text /*Propriétés des lignes et colonnes des tableaux (ici on en a un seul, 
     font-size           :small;
 }
 
-p.title1 /*Propriétés des lignes et colonnes des tableaux (ici on en a un seul, celui du menu)*/
+p.title1
 {
     padding             : 0px;              /*écart de remplissage sur les cotés en pixels*/
     height              : 38px;             /*La hauteur de l'élement en pixels (la même que celle des images)*/
@@ -79,7 +79,7 @@ p.title1 /*Propriétés des lignes et colonnes des tableaux (ici on en a un seul
     font-weight         : bold;
 }
 
-p.title2 /*Propriétés des lignes et colonnes des tableaux (ici on en a un seul, celui du menu)*/
+p.title2
 {
     padding             : 0px;              /*écart de remplissage sur les cotés en pixels*/
     height              : 38px;             /*La hauteur de l'élement en pixels (la même que celle des images)*/
@@ -88,7 +88,7 @@ p.title2 /*Propriétés des lignes et colonnes des tableaux (ici on en a un seul
     font-weight         :bold;
 }
 
-p.identity_title1 /*Propriétés des lignes et colonnes des tableaux (ici on en a un seul, celui du menu)*/
+p.identity_title1
 {
     padding             : 0px;              /*écart de remplissage sur les cotés en pixels*/
     height              : 50px;             /*La hauteur de l'élement en pixels (la même que celle des images)*/
@@ -97,7 +97,7 @@ p.identity_title1 /*Propriétés des lignes et colonnes des tableaux (ici on en 
     font-weight         :bold;
 }
 
-p.identity_title2 /*Propriétés des lignes et colonnes des tableaux (ici on en a un seul, celui du menu)*/
+p.identity_title2
 {
     padding             : 0px;              /*écart de remplissage sur les cotés en pixels*/
     height              : 38px;             /*La hauteur de l'élement en pixels (la même que celle des images)*/
